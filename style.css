@@ -4,7 +4,16 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+.study-list button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+.study-list button:hover {
+  opacity: 0.8;
+}
 body {
   background: linear-gradient(135deg, #1e3c72, #2a5298);
   min-height: 100vh;
